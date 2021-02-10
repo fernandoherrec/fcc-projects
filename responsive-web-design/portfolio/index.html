@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav id = "navbar">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#welcome-section" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- SECCIÓN DE BIENVENIDA -->
+        <section id="welcome-section">
+            <h1>Hey, I am Fernando</h1>
+            <p>a web developer</p>
+        </section>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN DE PROYECTOS -->
+        <section id="projects">
+            <h2>These are some of my projects</h2>
+            <div>
+                <a class="project-tile" id="project1" href="https://codepen.io/fernandoherrec/full/OJRddRq">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e705a534040642.56c2206da74cf.jpg" alt="Preview de Tribute Page">
+                    <p>
+                        <span>&lt;</span> Tribute Page <span>/&gt;</span>
+                    </p>
+                </a>
+                <a class="project-tile" id="project2" href="https://codepen.io/fernandoherrec/full/oNzVKML">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="Preview de Technical Documentation Page">
+                    <p>
+                        <span>&lt;</span> Technical Documentation Page <span>/&gt;</span>
+                    </p>
+                </a>
+                <a class="project-tile" id="project3" href="https://codepen.io/fernandoherrec/full/LYRaQze">
+                    <img src="https://pixabay.com/get/gcfce5c1b1a3b6dc7fe77f095777b7ad3f9a4e21a3fdedac3c3c71403a79f491e78d291ebc1ac67f59fdaaaedd1c63a7e_640.jpg" alt="Preview de Survey Form">
+                    <p>
+                        <span>&lt;</span> Survey Form <span>/&gt;</span>
+                    </p>
+                </a>
+                <a class="project-tile" id="project4" href="https://codepen.io/fernandoherrec/full/eYdXMGM">
+                    <img src="https://pixabay.com/get/ge10647d81afc85223c9f99be47020435e2c5e382266a97837a0dcf386c4605c97dc579203e5be171e94174c52103721e_640.jpg" alt="Preview de Product Landing Page">
+                    <p>
+                        <span>&lt;</span> Product Landing Page <span>/&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <button type = "button">Show all &gt</button>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO -->
+        <section id="contact">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+            <div class="social-networks">
+                <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+                <a id="profile-link" target="_blank" href="https://www.freecodecamp.org/fernandoherrec"><i class="fab fa-github-square"></i>GitHub</a>
+                <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                <a href="#"><i class="fas fa-envelope-square"></i>Send a mail</a>
+                <a href="#"><i class="fas fa-phone-square-alt"></i>Call me</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer><small>&copy; Copyright 2021, @fernandoherrec</small></footer>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
