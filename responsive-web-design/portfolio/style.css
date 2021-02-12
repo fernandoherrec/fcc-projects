@@ -12,7 +12,7 @@ header nav {
     position: fixed;
     width: 100%;
     height: 70px;
-    background: #be3144;
+    background: #f2a154;
 }
 
 header nav ul {
@@ -29,7 +29,7 @@ header nav ul li {
 
 
 header nav ul li:hover {
-    background-color: #45567d;
+    background-color: #e7e6e1;
 }
 
 header nav ul li a {
@@ -37,11 +37,11 @@ header nav ul li a {
     text-decoration: none;
     padding-right: 20px;
     padding-left: 20px;
-    color: #f0f0f0;
+    color: #314e52;
 }
 
 header section{
-    background-color: #303841;
+    background-color: #e7e6e1;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -50,21 +50,22 @@ header section{
 }
 
 header section h1 {
-    color: #f0f0f0;
+    color: #314e52;
     font-size: 60px;
     text-align: center;
 }
 
 header section p {
-    color: #be3144;
+    color: #f2a154;
     font-size: 25px;
     font-style: italic;
     font-weight: 200;
+    /* text-shadow: 2px 2px 2px #e1bc91; */
 }
 
 main #projects{
-    background-color: #45567d;
-    color: #f0f0f0;
+    background-color: #f7f6e7;
+    color: #314e52;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,10 +76,11 @@ main #projects h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 550;
-    padding-top: 30px;
+    padding-top: 110px;
     padding-bottom: 30px;
     text-underline-offset: 50%;
     text-decoration: underline;
+    /* text-shadow: 1px 1px 1px #f0e5d8; */
 }
 
 main #projects div #project1 {grid-area: project1;}
@@ -101,7 +103,7 @@ main #projects div a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #303841;
+    background-color: #e7e6e1;
     height: auto;
     text-decoration:none;
 }
@@ -116,7 +118,7 @@ main #projects div a p {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
-    color: #f0f0f0;
+    color: #314e52;
     text-align: center;
 }
 
@@ -126,23 +128,29 @@ main #projects div a p span {
 
 main #projects div a:hover p span{
     opacity: 100%;
-    color:coral;
+    color: #f2a154;
     transition: opacity 0.3s linear;
 }
 
-main #projects button{
-    background-color: #303841;
+main #projects button {
+    background-color: #e7e6e1;
     border: none;
-    color: #f0f0f0;
+    color: #314e52;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+    cursor: pointer;
+}
+
+main #projects button:hover{
+    box-shadow: 1px 1px 1px #314e52bb;
+    transition: box-shadow 0.15s linear;
 }
 
 main #contact{
-    background-color: #303841;
+    background-color: #e7e6e1;
     padding-top: 150px;
     padding-bottom: 150px;
     display: flex;
@@ -151,13 +159,13 @@ main #contact{
 }
 
 main #contact h2 {
-    color: #f0f0f0;
+    color: #314e52;
     font-size: 60px;
     text-align: center;
 }
 
 main #contact p {
-    color: #f0f0f0;
+    color: #314e52;
     font-size: 20px;
     font-weight: 200;
     font-style: italic;
@@ -166,7 +174,7 @@ main #contact p {
 
 main #contact div {
     padding-top: 50px;
-    color: #f0f0f0;
+    color: #314e52;
     font-size: 25px;
 }
 
@@ -177,14 +185,19 @@ main #contact div a{
     color: inherit;
 }
 
+main #contact div a:hover{
+    border-bottom: 2px solid #314e52;
+    transition: border-bottom 0.15s linear;
+}
+
 main #contact div a i{
     margin-right: 10px;
 }
 
 footer {
-    border-top: 6px solid #be3144;
-    background: #303841;
-    color: #f0f0f0;
+    border-top: 6px solid #f2a154;
+    background: #e7e6e1;
+    color: #314e52;
     padding: 40px;
     text-align: center;
     font-size: 20px;
