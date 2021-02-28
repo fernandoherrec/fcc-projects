@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F1F0;
+    font-family: 'Zilla Slab', serif;
+}
+
+#navbar {
+    height: 100vh;
+    position: fixed;
+    width: 330px;
+    color: #8C1C3A;
+    border-right: 3px solid #8C1C3A;
+}
+
+#navbar header {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#navbar ul {
+    height: calc(100% - 2em - 45px);
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 2px solid #8C1C3A;
+}
+
+#navbar li {
+    border-bottom: 1px solid #8C1C3A;
+    list-style: none;
+    width: 100%;
+}
+#navbar a {
+    display: block;
+    padding: 20px 30px;
+    color: inherit;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar a:hover {
+    color: #594539;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition-property: color;
+    transition-duration: 0.4s;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 330px;
+    padding: 40px;
+    font-weight: 600px;
+}
+
+#main-doc header {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #8C1C3A;
+    margin: 30px 50px 10px;
+}
+
+#main-doc section {
+    color: #594539;
+}
+
+#main-doc section p {
+    padding: 10px 10px;
+}
+
+#main-doc section code {
+    background-color: #D9B39177;
+    font-size: 1em;
+    margin: 10px 70px ;
+}
+
+#main-doc section ul {
+    padding: 10px 50px;
+}
+
+#main-doc section ul li {
+    padding-bottom: 5px;
+}
+
+
+@media (max-width: 1080px) {
+    #navbar {
+        top: 0;
+        width: 100%;
+        position: absolute;
+        padding: 0;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+    }
+    #navbar ul {
+        border: 1px solid;
+        height: 207px;
+    }
+    #main-doc {
+        position: relative; 
+        margin-top: 275px;
+        margin-left: auto;
+    }
+}
