@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background-image: url(img/medicos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #cae4db88;
+}
+
+header,
+form {
+    width: 750px;
+    padding: 40px 0px;
+    margin: 0px auto;
+    color: #00303f;
+    font-family: 'Inconsolata', monospace;
+}
+
+header {
+    text-align: center;
+    padding: 20px 80px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 1.7em;
+}
+
+header p:hover {
+    font-weight: 500;
+}
+
+form {
+    padding: 80px 80px 80px 120px;
+    font-size: 1.5em;
+    background-color: #f5f4f4;
+}
+
+.width100 {
+    width: 100%;
+    font-size: 0.7em;
+    color:#00303f;
+    padding: 5px;
+    border: 2px solid #00303fcc;
+    border-radius: 3px;
+}
+
+form textarea {
+    color: #00303f;
+    font-family: arial, verdana, ms sans serif;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #00303fcc;
+}
+
+form p {
+    margin: 0;
+}
+
+#submit {
+    background-color: #cdac81cc;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 3px solid #cdac81;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+}
+
+#submit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    
+    body {
+        width: 100%;
+    }
+
+    header,
+    form {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #f5f4f4;
+    }
+
+    header {
+        border-bottom: 5px solid #cdac81;
+    }
+
+    header h1 {
+        font-size: 5em;
+    }
+
+    .titulo {
+        font-size: 1.3em;
+    }
+
+    form {
+        font-size: 2.5em;
+    }
+
+}
